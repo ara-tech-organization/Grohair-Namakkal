@@ -17,8 +17,8 @@ ServerSignature Off
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
     # www -> apex (drop this block if you prefer www as canonical)
-    RewriteCond %{HTTP_HOST} ^www\.adgrohairgloskintiruppur\.com$ [NC]
-    RewriteRule ^ https://adgrohairgloskintiruppur.com%{REQUEST_URI} [L,R=301]
+    RewriteCond %{HTTP_HOST} ^www\.adgrohairnamakkal\.com$ [NC]
+    RewriteRule ^ https://adgrohairnamakkal.com%{REQUEST_URI} [L,R=301]
 
     # ---------------------------------------------------------------
     # SPA fallback — React Router needs every non-file URL to serve
